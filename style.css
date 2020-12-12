@@ -1,0 +1,65 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    background-image:url();
+    background-color:rgb(31, 30, 30);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
+.contain_box {
+    overflow: hidden;
+    min-width: 350px;
+    min-height: 250px;
+    width:25%;
+    height:250px;
+    background:rgb(3, 37, 82);
+    border-radius: 25px;
+}
+.customSmall {
+    font-family: Courier;
+    color: white;
+    font-size:24px;
+    text-align: center;
+}
+.custom {
+    font-family: Courier;
+    color: white;
+    font-size:45px;
+    text-align: center;
+}
+.white_text {
+    font-family:  Arial;
+    color: white;
+}
+.btn btn-primary btn-lg
+{
+    padding: 30x 30px;
+    outline: none;
+    box-shadow: none;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn_container
+{
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 300px;
+    width:25%;
+    height:300px;
+}
+.Alert_message
+{
+    overflow: hidden;
+    min-width: 350px;
+    min-height: 57px;
+    width:25%;
+    height:57px;
+}
+.form-rounded {
+    border-radius: 1rem;
+}

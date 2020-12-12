@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <script src="game.js"></script>
+      <title>Higher or lower JS</title>
+   </head>
+   <body>
+      <body onload="UpdateNumbers();">
+         <br>
+         <center>
+            <p class="custom">Higher or Lower</p>
+            <p class="customSmall">JavaScript</p>
+            <div class="Alert_message">
+               <img id="Higher" src="img/up-arrow.svg" width="30px" height="30px" style="visibility: hidden;" style="vertical-align:middle">
+               <h6 class="white_text" style="font-size:17px" id="info"></h6>
+            </div>
+            <br>
+            <div class="contain_box">
+               <h3 class="white_text" type="text" id="counter" readonly>Attempts: 0</h3>
+               <br>
+               <div class="btn_container">
+                  <input type="text" id="NumberGuess" class="form-control form-rounded" placeholder="Please enter guess here">
+                  <br>
+                  <button type="button" onclick="CheckGuess();" class="btn btn-primary btn-lg btn-block">Submit guess</button>
+                  <br>
+                  <h5 class="white_text" type="text" id="Max" readonly></h5>
+               </div>
+         </center>
+         <br><br>
+         </div>
+   </body>
+</html>
